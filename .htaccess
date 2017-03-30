@@ -1,0 +1,5 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.codesfor\.cash$
+RewriteRule ^/?$ "http\:\/\/codesfor\.cash\/" [R=301,L]
